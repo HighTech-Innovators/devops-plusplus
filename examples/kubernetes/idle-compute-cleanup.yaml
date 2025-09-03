@@ -1,0 +1,19 @@
+# Example: Kubernetes CronJob to Clean Idle Compute
+
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: cleanup-idle-compute
+spec:
+  schedule: "0 * * * *"  # Every hour
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: cleanup
+            image: busybox
+            command: ["sh", "-c", "echo Detecting idle pods... && # scale down logic here"]
+          restartPolicy: OnFailure
+
+# This job represents how to automate idle resource detection & cleanup in DevOps++
