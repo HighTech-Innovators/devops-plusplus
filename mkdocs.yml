@@ -1,0 +1,47 @@
+site_name: DevOps++
+site_description: "Open-source framework for sustainable, efficient, and resilient DevOps practices."
+site_url: "https://your-username.github.io/devopspp-framework/"
+repo_url: "https://github.com/your-username/devopspp-framework"
+repo_name: "DevOps++ Framework"
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+nav:
+  - Home: index.md
+  - Principles:
+      - "P1: Eliminate Idle Compute": principles/P1-eliminate-idle-compute.md
+      - "P2: CPU vs Business": principles/P2-cpu-vs-business.md
+      - "P3: Right-size Memory": principles/P3-right-size-memory.md
+      - "P4: IO Visibility": principles/P4-io-visibility.md
+      - "P5: Validate Performance Early": principles/P5-validate-performance-early.md
+      - "P6: Prune Data": principles/P6-prune-data.md
+      - "P7: Smart Compute Location": principles/P7-smart-compute-location.md
+      - "P8: WebAssembly": principles/P8-webassembly.md
+      - "P9: Performance by Perception": principles/P9-performance-perception.md
+      - "P10: Efficiency in User Terms": principles/P10-efficiency-user-terms.md
+  - Playbooks:
+      - CI/CD Playbook: playbooks/ci-cd-playbook.md
+  - Case Studies: case-studies/
+  - Glossary: glossary.md
+  - Resources: resources.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.tasklist
