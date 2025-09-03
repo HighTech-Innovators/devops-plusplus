@@ -17,16 +17,46 @@ theme:
 nav:
   - Home: index.md
   - Principles:
-      - "P1: Eliminate Idle Compute": principles/P1-eliminate-idle-compute.md
-      - "P2: CPU vs Business": principles/P2-cpu-vs-business.md
-      - "P3: Right-size Memory": principles/P3-right-size-memory.md
-      - "P4: IO Visibility": principles/P4-io-visibility.md
-      - "P5: Validate Performance Early": principles/P5-validate-performance-early.md
-      - "P6: Prune Data": principles/P6-prune-data.md
-      - "P7: Smart Compute Location": principles/P7-smart-compute-location.md
-      - "P8: WebAssembly": principles/P8-webassembly.md
-      - "P9: Performance by Perception": principles/P9-performance-perception.md
-      - "P10: Efficiency in User Terms": principles/P10-efficiency-user-terms.md
+      - "Eliminate Idle Compute":
+          - Core: principles/P1-eliminate-idle-compute/core.md
+          - Best Practices: principles/P1-eliminate-idle-compute/best-practices.md
+          - Worst Practices: principles/P1-eliminate-idle-compute/worst-practices.md
+      - "CPU Load vs Business Value":
+          - Core: principles/P2-cpu-vs-business/core.md
+          - Best Practices: principles/P2-cpu-vs-business/best-practices.md
+          - Worst Practices: principles/P2-cpu-vs-business/worst-practices.md
+      - "Right-Size Memory With Runtime Feedback":
+          - Core: principles/P3-right-size-memory/core.md
+          - Best Practices: principles/P3-right-size-memory/best-practices.md
+          - Worst Practices: principles/P3-right-size-memory/worst-practices.md
+      - "Prioritize IO Visibility Over Compute Assumptions":
+          - Core: principles/P4-io-visibility/core.md
+          - Best Practices: principles/P4-io-visibility/best-practices.md
+          - Worst Practices: principles/P4-io-visibility/worst-practices.md
+      - "Validate Performance Early, Not Post-Deployment":
+          - Core: principles/P5-validate-performance-early/core.md
+          - Best Practices: principles/P5-validate-performance-early/best-practices.md
+          - Worst Practices: principles/P5-validate-performance-early/worst-practices.md
+      - "Prune Data at the Source in Microservices":
+          - Core: principles/P6-prune-data/core.md
+          - Best Practices: principles/P6-prune-data/best-practices.md
+          - Worst Practices: principles/P6-prune-data/worst-practices.md
+      - "Choose Compute Location Intelligently":
+          - Core: principles/P7-smart-compute-location/core.md
+          - Best Practices: principles/P7-smart-compute-location/best-practices.md
+          - Worst Practices: principles/P7-smart-compute-location/worst-practices.md
+      - "Embrace Lightweight Execution With WebAssembly":
+          - Core: principles/P8-webassembly/core.md
+          - Best Practices: principles/P8-webassembly/best-practices.md
+          - Worst Practices: principles/P8-webassembly/worst-practices.md
+      - "Tie Performance Thresholds to Perception, Not Tradition":
+          - Core: principles/P9-performance-perception/core.md
+          - Best Practices: principles/P9-performance-perception/best-practices.md
+          - Worst Practices: principles/P9-performance-perception/worst-practices.md
+      - "Measure Efficiency in User Terms":
+          - Core: principles/P10-efficiency-user-terms/core.md
+          - Best Practices: principles/P10-efficiency-user-terms/best-practices.md
+          - Worst Practices: principles/P10-efficiency-user-terms/worst-practices.md
   - Playbooks:
       - CI/CD Playbook: playbooks/ci-cd-playbook.md
   - Case Studies: case-studies/
