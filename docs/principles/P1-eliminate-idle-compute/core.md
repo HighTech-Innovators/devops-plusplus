@@ -96,11 +96,11 @@ The aim: balance readiness with efficiency – systems that are *available when 
 - **Managed idle (when necessary)**  
   For high-availability systems, manage idle intentionally: use autoscaling, reserved burst capacity, and cost alerts.
 
-### Architectural Moves
-- Convert legacy servers to **on-demand** or **event-driven** structures.  
-- Merge small workloads – one efficient instance at 80% load is better than four at 20%.  
-- Eliminate redundant or duplicated services.  
-- Regularly review “idle but safe” systems – they often hide larger design debt.
+- **Optimize architectural footprint**  
+  - Convert legacy servers to **on-demand** or **event-driven** structures.  
+  - Merge small workloads – one efficient instance at 80% load is better than four at 20%.  
+  - Eliminate redundant or duplicated services.  
+  - Regularly review “idle but safe” systems – they often hide larger design debt.
 
 ---
 
