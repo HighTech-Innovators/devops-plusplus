@@ -112,34 +112,6 @@ The aim: balance readiness with efficiency — systems that are *available when 
 
 ---
 
-## 5. Measurement and Feedback
-
-A principle is only valuable when measurable.  
-Track idle compute continuously across infrastructure and teams.
-
-### Metrics to Observe
-- **CPU & memory utilization** over time (thresholds under X% for Y hours).  
-- **Service activity rate** — requests per hour vs. uptime.  
-- **Cost of idle time** — compute cost per non-active hour.  
-- **Decommission rate** — how many unused services are retired per quarter.  
-- **Carbon impact** — estimate energy and CO₂ reduction from scaling down.
-
-### Feedback Loops
-- Integrate idle compute checks into CI/CD or FinOps dashboards.  
-- Highlight top idle offenders in retrospectives or quarterly reviews.  
-- Celebrate removals and optimizations — reducing waste is real engineering achievement.
-
----
-
-## 6. Reflection Points
-- How do we define “the right problems” for our team to solve?  
-- When is idle *necessary*, and when is it *waste*?  
-- How do we build confidence to turn off what isn’t needed?  
-- What mechanisms help us continuously spot and question idle systems?  
-- How can we embed service hygiene and decommissioning into our engineering culture?
-
----
-
 ## Summary
 
 **Eliminate Idle Compute** is not just about saving cost — it’s about improving focus, sustainability, and architectural clarity.  
