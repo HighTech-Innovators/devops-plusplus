@@ -40,11 +40,6 @@ Idle compute is often a **symptom of deeper problems** — architectural ineffic
   Embedding “turn it off safely” confidence into culture is essential.
 - **Idle as a signal** — persistent idle compute points to architectural or design bottlenecks that need attention.
 
-> 💬 “Idle is vaak een symptoom van verwachte problemen. In sommige gevallen is Idle noodzakelijk,  
-> maar door het scherper te zetten, verspil je minder onnodige resources.  
-> Daarom is het belangrijk — het creëert beter verwachtingsmanagement.”  
-> — *Wilco Burggraaf*
-
 ---
 
 ## 3. Examples
@@ -72,7 +67,6 @@ Idle compute is often a **symptom of deeper problems** — architectural ineffic
 - “Don’t touch me” servers — no one dares to decommission them.  
 - Slow queries or blocking background jobs that waste cycles.  
 - Inefficient resource allocation — 4 servers at 20% load instead of 1 at 80%.  
-- “Once-in-a-while” servers that rarely execute meaningful work.  
 - Inefficient code hotspots (e.g., high memory or CPU usage due to suboptimal logic).
 
 > 🧭 *Idle compute and bad architecture often overlap but are distinct.*  
@@ -106,9 +100,6 @@ The aim: balance readiness with efficiency — systems that are *available when 
 
 - **Hunt bottlenecks**  
   Idle time often originates in code or architecture.  
-  > “Vaak is het wachten of bottleneck van code tot architectuur of gedeployde services.  
-  > Elimineer en refactor deze, of herconfigureer infrastructuur als codewijzigingen niet mogelijk zijn.”  
-  > — *Wilco Burggraaf*
 
 - **Managed idle (when necessary)**  
   For high-availability systems, manage idle intentionally: use autoscaling, reserved burst capacity, and cost alerts.
