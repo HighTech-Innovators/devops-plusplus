@@ -1,4 +1,6 @@
-# P2 – Challenge CPU Load Without Business Context
+# Challenge CPU Load Without Business Context
+
+Modern software systems often generate high CPU load without directly serving real business value or user needs. This principle encourages teams to question such inefficiencies, align compute use with business goals, and foster collaboration between developers and business leaders to balance performance, cost, and sustainability.
 
 ## 1. Definition
 
